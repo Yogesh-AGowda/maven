@@ -1,7 +1,5 @@
 pipeline{
-    agent {
-        label 'linuxagent'
-    }
+    agent any
     tools{
         maven 'MAVEN_HOME'
     }
